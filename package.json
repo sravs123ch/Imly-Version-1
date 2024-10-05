@@ -19,6 +19,7 @@
     "axios": "^1.7.3",
     "chart.js": "^4.4.3",
     "cors": "^2.8.5",
+    "dayjs": "^1.11.13",
     "jspdf": "^2.5.1",
     "jspdf-autotable": "^3.8.2",
     "jwt-decode": "^4.0.0",
