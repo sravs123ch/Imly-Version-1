@@ -55,8 +55,7 @@ export const CREATEORUPDATE_PAYMENT_API = `${BASE_URL}/payments/payments/createO
 export const GETPAYMENTSBY_PAYMETID_API = `${BASE_URL}/payments/payments`;
 export const GET_ALL_PAYMENTS_API = `${BASE_URL}/payments/GetAllPayments`;
 export const CREATEORUPDATE_PAYMENTS_API = `${BASE_URL}payments/createOrUpdatePayment`;
-export const GET_PAYMENTSBY_ORDERID_API = `${BASE_URL}/payments/payments`;
-
+export const GET_PAYMENTSBY_ORDERID_API = `${BASE_URL}/payments/paymentsbyID`;
 
 export const CREATEORUPDATE_MAPSTOREUSER = `${BASE_URL}/mapstoreusers/mapstoreuser`;
 export const GET_MAPSTOREUSERBY_USERID = `${BASE_URL}/mapstoreusers//mapstoreuserbyUserID`;
@@ -65,3 +64,5 @@ export const  DELETEMAPSTOREUSER = `${BASE_URL}/mapstoreusers/deleteMapStoreUser
 export const GET_ALL_HYSTORYID_API=`${BASE_URL}/orderhistory/order-history/`;
 export const FETCH_PERMISSION_URL = `${BASE_URL}/permissions/getAllPermissions`;
 export const CREATE_OR_UPDATE_ROLE_URL = `${BASE_URL}/permissions/createOrUpdateRolePermissions`;
+
+export const ORDER_STATUS_API=`${BASE_URL}/Orderstatus/getAllOrderStatus`;

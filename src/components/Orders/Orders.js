@@ -327,7 +327,7 @@ import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/20/solid";
 
 import { FaPlus, FaTable } from "react-icons/fa";
 import { IoIosSearch } from "react-icons/io";
-// import Datepicker from "react-tailwindcss-datepicker";
+import Datepicker from "react-tailwindcss-datepicker";
 import {OrderContext} from "../../Context/orderContext";
 
 
@@ -699,7 +699,23 @@ const { setOrderIdDetails } = useContext(OrderContext);
             </div>
           </Combobox>
         </div>
-       <div></div>
+        {/* Container for Date Pickers */}
+        <div className="flex justify-center items-center gap-4 w-full p-2 sm:w-auto md:w-80 text-sm leading-6 ">
+          <div className="border-solid border-gray-400 w-full border-[1px] rounded-lg">
+          
+            <Datepicker
+             
+              popoverDirection="down"
+              showShortcuts={true}
+              showFooter={true}
+            
+              placeholder="Start Date and End Date"
+              primaryColor={"purple"}
+              value={value}
+              onChange={(newValue) => setValue(newValue)}
+            />
+          </div>
+        </div>
       </div>
 
       <div className="flex justify-center md:justify-center mb-4 px-4 md:px-0 mt-4">
