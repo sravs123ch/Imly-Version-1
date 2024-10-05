@@ -1738,7 +1738,7 @@ function ReportGenerator() {
                   onClick={handleFileDownload}
                   className="p-2 w-full md:w-40 bg-green-500 hover:bg-green-600 text-white rounded-lg transition-colors duration-300"
                 >
-                  Download File
+                  Download
                 </button>
               </div>
             </div>
